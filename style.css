@@ -16,6 +16,12 @@ body {
     max-width: 60%;
 }
 
+form{
+    margin: auto;
+    width: 95%;
+    padding-bottom: 20px;
+}
+
 h3 {
     position: absolute;
     left: 45px;
@@ -76,9 +82,11 @@ h3 {
 h6 {
     background: grey;
     border-top 30px;
+    bottom: 0em;
     color: white;
     height: 60px !important;
-    margin-top: 60px;
+    position: fixed;
     padding: 20px;
     text-align: center;
+    width: 100%;
 }
