@@ -46,6 +46,31 @@ h3 {
     margin-top: 20px;
 }
 
+.portfolio-item {
+    position: relative;
+    margin: 15px;
+}
+
+.portCardBody {
+    padding: 0;
+
+}
+
+.portCardText {
+    background: grey;
+    color: white;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    width: 100%;
+}
+
+.wrapper {
+    background: white;
+    padding: 0 15px;
+    max-width: 720px;
+
+}
 h6 {
     background: grey;
     border-top 30px;
