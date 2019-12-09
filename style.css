@@ -1,0 +1,30 @@
+body {
+    background-image: url("assets/cloudy-day.png");
+    background-color: #cccccc;
+   }
+
+.border-top {
+    background: white;
+    border-width: 3px !important;
+    margin: auto;
+    padding: 8px 50px !important;
+    width: 100%;
+}
+
+.card-img {
+    padding: 22px 15px 22px 0;
+    max-width: 60%;
+}
+
+.main-content {
+    padding: 0px 30px;
+}
+
+.navbar {
+    padding: 15px 30px;
+    max-width: 720px;
+}
+
+.page-content {
+    margin-top: 20px;
+}
