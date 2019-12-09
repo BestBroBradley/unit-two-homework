@@ -33,7 +33,7 @@ h3 {
 
 .nav {
     background: white;
-    padding: 10px 0 20px 0;
+    padding: 10px 10px 20px 0;
     width: 100%;
 }
 
@@ -44,4 +44,14 @@ h3 {
 
 .page-content {
     margin-top: 20px;
+}
+
+h6 {
+    background: grey;
+    border-top 30px;
+    color: white;
+    height: 60px !important;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
 }
