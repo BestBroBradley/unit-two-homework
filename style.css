@@ -59,7 +59,9 @@ h3 {
 .portCardText {
     background: grey;
     color: white;
+    padding: 15px 0;
     position: absolute;
+    text-align: center;
     top: 60%;
     right: 0;
     width: 100%;
