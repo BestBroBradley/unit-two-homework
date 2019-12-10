@@ -1,6 +1,7 @@
 body {
     background-image: url("assets/cloudy-day.png");
     background-color: #cccccc;
+    padding-bottom: 80px;
    }
 
 .border-top {
@@ -13,12 +14,13 @@ body {
 
 .card-img {
     padding: 22px 15px 22px 0;
-    max-width: 60%;
+    width: 60%;
 }
 
 .container {
     margin-left: 50px;
 }
+
 form{
     margin: auto;
     width: 95%;
@@ -71,7 +73,7 @@ h3 {
     padding: 15px 0;
     position: absolute;
     text-align: center;
-    top: 60%;
+    top: 65%;
     right: 0;
     width: 100%;
 }
@@ -84,12 +86,32 @@ h3 {
 }
 h6 {
     background: grey;
-    border-top 30px;
-    bottom: 0em;
+    border-top: 30px;
+    bottom: 0;
+    margin-bottom: 0;
     color: white;
     height: 60px !important;
     position: fixed;
     padding: 20px;
     text-align: center;
     width: 100%;
+}
+
+@media (max-width: 660px ) {
+.card-img {
+    width: 100%;
+}
+
+h3 {
+    float: none;
+    margin: 0;
+    position: static;
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    margin: auto;
+}
+
 }
